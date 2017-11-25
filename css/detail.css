@@ -1,0 +1,852 @@
+.allrange{
+	height: 40px;
+	line-height: 40px;
+}
+.allrange i{
+	display: inline-block;
+   background: url(../images/s-icon.png) no-repeat 0 -180px;
+   padding-right: 8px;
+}
+.allrange a{	
+color: #666;
+}
+
+/*********/
+.bigdetail{
+	width: 100%;
+	height: 700px;
+	margin-bottom: 10px;
+}
+.bigdetail .imgzoom{
+	height: 660px;
+	border: 1px solid #ccc;
+	padding: 16px;
+}
+.bigdetail .imgcar{
+	width: 418px;
+	height: 620px;
+	float: left;
+}
+.bigdetail .imgcar .bigimg{
+	width: 418px;
+	height: 418px;
+	border: 1px solid #ccc;
+}
+.bigdetail .imgcar .bigimg .biglist{
+	width: 418px;
+	height: 418px;
+	position: relative;
+}
+.bigdetail .imgcar .bigimg .biglist li{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 418px;
+	height: 418px;
+	display: none;
+}
+.bigdetail .imgcar .bigimg .biglist li.active{
+	display: block;
+}
+.bigdetail .imgcar .bigimg .biglist li img{
+	width: 418px;
+	height: 418px;
+}
+/*****/
+.bigdetail .imgcar .imglist{
+	width: 418px;
+	height: 62px;
+	margin-top: 10px;
+	
+}
+.bigdetail .imgcar .imglist .pre{
+	width: 26px;
+	height: 62px;
+	float: left;
+	background: #eee;
+	text-align: center;
+	line-height: 62px;
+	font-weight: 900;
+	color: #666;
+	font-size: 20px;
+	cursor: pointer;
+}
+.bigdetail .imgcar .imglist .smallist{
+	width: 360px;
+	height: 62px;
+	float: left;
+	line-height: 62px;
+	font-weight: 800;
+	color: #666;
+}
+.bigdetail .imgcar .imglist .smallist li{
+	float: left;
+	width: 62px;
+	height: 62px;
+	margin:0 5px;
+	box-sizing:border-box;
+}
+.bigdetail .imgcar .imglist .smallist li.active{
+	border: 2px solid #e54172;
+}
+.bigdetail .imgcar .imglist .smallist li img{
+	width: 58px;
+	height: 58px;
+}
+.bigdetail .imgcar .imglist .smallist li:hover{
+	border: 2px solid #e54172
+}
+.bigdetail .imgcar .imglist .nex{
+	width: 26px;
+	height: 62px;
+	float: right;
+	background: #eee;
+	line-height: 62px;
+	font-weight: 900;
+	font-size: 20px;
+	color: #666;
+	text-align: center;
+	cursor: pointer;
+}
+.bigdetail .imgcar .enjoy{
+	width: 418px;
+	height: 45px;
+	margin-top: 10px;	
+	position: relative;
+}
+.bigdetail .imgcar .enjoy a{
+	display: block;
+	color: #999;
+}
+.bigdetail .imgcar .enjoy i{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+    margin-top: 5px;
+    float: left;
+    box-sizing:border-box; 
+   background: url("../images/ui-icon.png") no-repeat 0 -405px;
+
+}
+.bigdetail .imgcar .enjoy span{
+	float: left;
+	display: block;
+	line-height: 24px;
+}
+.bigdetail .imgcar .enjoy .lianjia{
+	width: 125px;
+	height:24px;
+	position: absolute;
+	top: 24px;
+	left: 25px;
+	display: none;
+}
+.bigdetail .imgcar .enjoy .lianjia b{
+	background: url(../images/jiathis_icon.png) no-repeat;
+	display: block;
+	float: left;
+	width: 24px;
+	height: 24px;
+}
+.bigdetail .imgcar .enjoy .lianjia b:nth-child(1){
+  background-position: 0 -2712px;
+}
+.bigdetail .imgcar .enjoy .lianjia b:nth-child(2){
+  background-position: 0 -144px;
+}
+.bigdetail .imgcar .enjoy .lianjia b:nth-child(3){
+  background-position: 0 -96px;
+}
+.bigdetail .imgcar .enjoy .lianjia b:nth-child(4){
+  background-position: 0 -3024px;
+}
+.bigdetail .imgcar .enjoy .lianjia b:nth-child(5){
+  background-position: 0 -215px;
+
+}
+
+/*******/
+.bigdetail  .seldetail{
+	float: right;
+	width: 716px;
+    height: 518px;
+}
+.bigdetail  .seldetail .selclass{
+	float: left;
+	width: 500px;
+	height: 24px;
+	margin-right: 10px;
+	
+}
+
+/************/
+
+.bigdetail  .seldetail .selclass h2{
+	font-size: 20px;
+	height: 21px;
+	line-height: 21px;
+	width: 485px;
+	margin-bottom: 10px;
+}
+.bigdetail  .seldetail .selclass h3{
+	font-size: 14px;
+	height: 24px;
+	line-height: 24px;
+	width: 485px;
+	color: red;
+}
+.bigdetail  .seldetail .selclass .deprice{
+    margin-top: 25px;
+    width: 475px;
+    height: 90px;
+    padding-top: 8px;
+    border-top: 1px solid #ffcbc4;
+    border-bottom: 1px solid #ffcbc4;
+    background: #fde5e0;
+    padding-left: 25px;
+}
+.seldetail .selclass .deprice .bigprice{
+	height: 32px;
+	width: 480px;
+}
+.seldetail .selclass .deprice .bigprice .tit{
+	width: 70px;
+	height: 32px;
+	line-height: 35px;
+	float: left;
+}
+.seldetail .selclass .deprice .bigprice .deeprice{
+	float: left;
+	width: 380px;
+	height: 32px
+}
+.seldetail .selclass .deprice .bigprice .deeprice .bigm{
+	color: #d42b2e;
+	font-size:30px; 
+	display: inline-block;
+
+}
+.seldetail .selclass .deprice .bigprice .deeprice .smallm{
+	font-size: 12px;
+	text-decoration: line-through;
+	color: #999;
+	margin-left:10px;
+	display: inline-block;
+}
+.seldetail .selclass .deprice .bigprice .deeprice em{
+	display: inline-block;
+	padding: 0 10px;
+	height: 20px;
+	line-height: 20px;
+	background: #FA4654;
+	color: #FFF;
+	font-size: 12px;
+	margin-left: 15px;
+}
+/**/
+.seldetail .selclass .deprice .hintlog{
+	width: 460px;
+	height: 32px;
+	line-height: 32px;
+	margin-top: 15px;
+}
+.seldetail .selclass .deprice .hintlog span{
+	font-size: 16px;
+	color: #666;
+}
+.seldetail .selclass .deprice .hintlog span a{
+	color: #0066ff;
+}
+/****/
+.seldetail .selclass .derive{
+	width: 460px;
+	padding-left: 25px;
+	height: 140px;
+	margin-top: 20px;
+}
+.seldetail .selclass .derive .xiao{
+	height: 32px;
+}
+.seldetail .selclass .derive .xiao .xiaol{
+	float: left;
+	color: #999;
+	width:70px;
+	height: 32px;
+	line-height: 32px; 
+}
+.seldetail .selclass .derive .xiao .xiaor{
+	height: 32px;
+	line-height: 32px;
+	width: 380px;
+	color: #999;
+	float: left;
+}
+.seldetail .selclass .derive .xiao .xiaor span{
+	color: #d42b2e;
+}
+/**/
+.seldetail .selclass .derive .pei{
+	height: 32px;
+	margin-top: 10px;
+}
+.seldetail .selclass .derive .pei .peil{
+	float: left;
+	color: #999;
+	width:70px;
+	height: 32px;
+	line-height: 32px; 
+}
+.seldetail .selclass .derive .pei .peir{
+	height: 32px;
+	line-height: 32px;
+	width: 380px;
+	color: #999;
+	float: left;
+}
+.seldetail .selclass .derive .pei .peir .splace{
+	color: #d42b2e;
+	float: left;
+	min-width:58px; 
+	height: 30px;
+	border:1px solid #ccc;
+	padding: 5px;
+	box-sizing:border-box;
+}
+.seldetail .selclass .derive .pei .peir .splace i{
+	background: url("../images/ui-icon.png") no-repeat -49px 0;
+	width: 12px;
+    height: 8px;
+    display: inline-block;
+    margin-bottom: 10px;
+    float: left;
+    margin-top: 4px;
+
+}
+.seldetail .selclass .derive .pei .peir .splace .okplace{
+	min-width: 30px;
+	display: inline-block;
+	height: 25px;
+	line-height: 20px;
+	text-align: center;
+	font-size: 18px;
+	float: left;
+	color: #666;
+}
+.seldetail .selclass .derive .pei .peir .deinfo{
+	display: inline-block;
+	color: #d42b2e;
+
+}
+/***/
+.seldetail .selclass .derive .yun{
+	height: 32px;
+	margin-top: 10px;
+
+}
+.seldetail .selclass .derive .yun .yunl{
+	float: left;
+	color: #999;
+	width:70px;
+	height: 32px;
+	line-height: 32px; 
+}
+.seldetail .selclass .derive .yun .yunr{
+	height: 32px;
+	line-height: 32px;
+	width: 380px;
+	color: #999;
+	float: left;
+} 
+.seldetail .selclass .derive .yun .yunr .yunfei{
+	color: #999;
+	font-size: 10px;
+}
+
+/**************/
+.seldetail .selclass .seltype{
+	width: 485px;
+	height: 200px;
+	padding-top: 30px;
+	border-top: 1px dashed #999;
+	padding-left: 25px;
+}
+.seldetail .selclass .seltype .kouwei{
+	width: 460px;
+	height: 32px;
+}
+.seldetail .selclass .seltype .kouwei .typel{
+	width: 70px;
+	line-height: 32px;
+	height: 32px;
+	float: left;
+}
+.seldetail .selclass .seltype .kouwei .typer{
+	width: 380px;
+	height: 32px;
+	float: left;
+}
+.seldetail .selclass .seltype .kouwei .typer p{
+	padding: 5px;
+	height: 24px;
+	width: 40px;
+	text-align: center;
+	line-height: 24px;
+	color:#f22a31;
+	border:1px solid #f22a31; 
+}
+/**/
+.seldetail .selclass .seltype .xinghao{
+	width: 460px;
+	height: 32px;
+	margin-top: 20px;
+}
+.seldetail .selclass .seltype .xinghao .typel{
+	width: 70px;
+	line-height: 32px;
+	height: 32px;
+	float: left;
+}
+.seldetail .selclass .seltype .xinghao .typer{
+	width: 380px;
+	height: 32px;
+	float: left;
+}
+.seldetail .selclass .seltype .xinghao .typer p{
+	padding: 5px;
+	height: 24px;
+	width: 50px;
+	text-align: center;
+	line-height: 24px;
+	color:#f22a31;
+	border:1px solid #f22a31; 
+}
+/****/
+.seldetail .selclass .seltype .guige{
+	width: 460px;
+	height: 32px;
+	margin-top: 20px;
+}
+.seldetail .selclass .seltype .guige .typel{
+	width: 70px;
+	line-height: 32px;
+	height: 32px;
+	float: left;
+}
+.seldetail .selclass .seltype .guige .typer{
+	width: 380px;
+	height: 32px;
+	float: left;
+}
+.seldetail .selclass .seltype .guige .typer p{
+	padding: 5px;
+	height: 24px;
+	width: 70px;
+	text-align: center;
+	line-height: 24px;
+	color:#f22a31;
+	border:1px solid #f22a31; 
+}
+/****/
+.seldetail .selclass .seltype .shuliang{
+	width: 460px;
+	height: 36px;
+	margin-top: 20px;
+}
+.seldetail .selclass .seltype .shuliang .typel{
+	width: 70px;
+	line-height: 36px;
+	height: 36px;
+	float: left;
+}
+.seldetail .selclass .seltype .shuliang .typer{
+	width: 380px;
+	height: 36px;
+	float: left;
+}
+.seldetail .selclass .seltype .shuliang .typer .ambox{
+	width: 70px;
+	height: 36px;
+	border:1px solid #999;
+	float: left;
+}
+.seldetail .selclass .seltype .shuliang .typer .ambox .amount1{
+	width:49px;
+	height: 36px;
+	border-right: 1px solid #999;
+	float: left; 
+	text-align: center;
+	padding-right: 3px;
+	box-sizing:border-box;
+}
+.seldetail .selclass .seltype .shuliang .typer .ambox .add1{
+	float: left;
+	width: 20px;
+	height: 36px;
+
+}
+.seldetail .selclass .seltype .shuliang .typer .ambox .add1 a{
+	display: block;
+	width: 19px;
+	height: 17px;
+	border-bottom: 1px solid #999;
+	text-align: center;
+	line-height: 15px;
+	color: #999;
+}
+
+/****/
+.seldetail .selclass .addgoods{
+	width: 460px;
+	height: 36px;
+	margin-top: 20px;
+}
+.seldetail .selclass .addgoods .jibuy{
+	float: left;
+	width: 138px;
+	height: 36px;
+	background: #666;
+	border-radius: 5px;
+	padding-left: 25px;
+	margin-right: 20px;
+}
+.seldetail .selclass .addgoods .jibuy i{
+	display: block;
+	width: 29px;
+    height: 20px;
+    margin-top: 8px;
+   
+    float: left;
+    background: url("../images/ui-icon.png") no-repeat 0 -330px;
+}
+.seldetail .selclass .addgoods .jibuy span{
+	display: block;
+	line-height: 36px;
+    height: 36px;
+    float: left;
+    color: #fff;
+    font-size: 16px;
+}
+/**/
+.seldetail .selclass .addgoods .jicart{
+	float: left;
+	width: 138px;
+	height: 36px;
+	background: #666;
+	border-radius: 5px;
+	padding-left: 25px;
+	margin-right: 20px;
+}
+.seldetail .selclass .addgoods .jicart i{
+	display: block;
+	width: 29px;
+    height: 20px;
+    margin-top: 8px;
+   
+    float: left;
+    background: url("../images/ui-icon.png") no-repeat 0 -330px;
+}
+.seldetail .selclass .addgoods .jicart span{
+	display: block;
+	line-height: 36px;
+    height: 36px;
+    float: left;
+    color: #fff;
+    font-size: 16px;
+}
+
+/********/
+.bigdetail  .seldetail .selstore{
+	float: right;
+	width: 200px;
+	height: 630px;
+	padding-top: 20px;
+	border-left: 1px dashed #999;
+}
+.bigdetail  .seldetail .selstore h2{
+   font-size: 14px;
+   font-weight: 800;
+   width: 200px;
+   text-align: center;
+}
+.bigdetail  .seldetail .selstore .dian{
+   width: 200px;
+   height: 30px;
+   margin-top: 15px;
+}
+.bigdetail  .seldetail .selstore .dian h3{
+	width: 88px;
+	height: 30px;
+	border: 1px solid #999;
+	border-radius: 5px;
+	padding: 5px;
+	margin: auto;
+}
+.bigdetail  .seldetail .selstore .dian i{
+  background: url("../images/s-icon.png") no-repeat -296px -312px;
+  width: 15px;
+	height: 16px;
+	margin-top: 5px;
+	display: block;
+	float: left;
+	margin-right: 3px;
+}
+.bigdetail  .seldetail .selstore .dian span{
+	line-height: 30px;
+}
+
+/**showcon***************************/
+ .showgoods .showlist{
+ 	width:190px;
+ 	float: left;
+ 	border:1px solid #999;
+ }
+ .showgoods .showlist h2{
+ 	width: 190px;
+ 	height: 34px;
+ 	background: #eee;
+ 	font-size: 16px;
+ 	line-height: 34px;
+ }						
+.showgoods .showlist .showexe{
+	width: 170px;
+	padding: 0 10px 0 10px;
+}
+.showgoods .showlist .showexe li{
+  width: 170px;
+  height: 60px;
+  border-bottom: 1px dashed #ccc;
+}
+.showgoods .showlist .showexe li img{
+	width: 40px;
+	height: 40px;
+	float: left;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+.showgoods .showlist .showexe li .ti{
+	float: left;
+	width: 100px;
+	padding: 10px 0 10px 0;
+}
+.showgoods .showlist .showexe li .ti a{
+	display: block;
+	height: 20px;
+}
+.showgoods .showlist .showexe li .ti p{
+	height: 20px;
+	font-size:14px;
+	color: #d42b2e; 
+}
+
+
+
+ /*右*******************************/
+ .showgoods .showcon{
+ 	width: 990px;
+ 	float: right;
+ }
+  .showgoods .showcon .showtop{
+    width: 990px;
+    height: 45px;
+    background: #ededed;
+    border:1px solid #ccc;
+  }
+ .showgoods .showcon .showtop .showtitle{
+   height: 45px;
+  }
+  .showgoods .showcon .showtop .showtitle li{
+   height: 46px;
+   float: left;
+   padding:0 10px 0 10px;
+   border-right:1px solid #ccc;
+   cursor: pointer;
+  
+  }
+  .showgoods .showcon .showtop .showtitle li.active{
+  	background: #fff;
+  }
+ .showgoods .showcon .showtop .showtitle li span{
+   	display: block;
+   	line-height: 46px;
+   	height: 45px;
+   	color: #666;
+
+   }
+ .showgoods .showcon .showtop .showtitle li b{
+ 	color:red;
+ }
+ /*****************/
+
+ .showgoods .showcon .showtainer{
+ 	width: 990px;
+
+ }
+ .showgoods .showcon .showtainer li.sintroduce{
+ 	width: 990px;
+ 	
+ }
+ .showcon .showtainer li.sintroduce .snamer{
+    height: 50px;
+    padding: 10px 20px;
+    box-sizing:border-box;
+    width: 990px;
+    border: 1px solid #ededed;
+    border-top: 0;
+    margin-bottom: 10px;
+ }
+ .showcon .showtainer li.sintroduce .snamer .snan{
+ 	height: 30px;
+ 	float: left;
+ 	font-size: 12px;
+ 	color: #999;
+ 	width: 472px;
+ }
+  .showcon .showtainer li.sintroduce .snamer .snan span{
+  	line-height: 30px;
+  	display: block;
+  	float: left;
+  }
+.showcon .showtainer li.sintroduce .snamer .snan .sna{
+	float: left;
+	margin-left: 10px;
+	line-height: 30px;
+	
+}
+.showcon .showtainer li.sintroduce .snamer .snum{
+ 	height: 30px;
+ 	float: left;
+ 	font-size: 12px;
+ 	color: #999;
+ }
+  .showcon .showtainer li.sintroduce .snamer .snum span{
+  	line-height: 30px;
+  	display: block;
+  	float: left;
+  }
+.showcon .showtainer li.sintroduce .snamer .snum .snu{
+	float: left;
+	margin-left: 10px;
+	line-height: 30px;
+	height: 30px;
+	/*width: 120px;*/
+}
+/********/
+.showcon .showtainer li.sintroduce .imgfos{
+	width: 990px;
+	padding: 20px;
+	border: 1px solid #e5e5e5;
+	color: #999999;
+}
+.showcon .showtainer li.sintroduce .imgfos img{
+
+}
+/************************/
+.showcon .showtainer li.scomment{
+	width: 990px;
+	display: none;
+}
+.showcon .showtainer li.srange{
+	width: 990px;
+	display: none;
+}
+.showcon .showtainer li.sservie{
+	width: 990px;
+	display: none;
+}
+
+/*滚动的头部*/
+.slidheader{
+	width: 100%;
+	height: 46;
+	line-height: 46px;
+	box-shadow: 0 3px 25px rgba(0, 0, 0, 0.4);
+	background: #f8f8f8;
+	position: fixed;
+	top: 0;
+	left: 0;
+    display: none;
+}
+.slidheader .slicart{
+	width: 150px;
+	background:#f22a31;
+	float: left;
+	padding-left: 15px;
+	height: 46px;
+    cursor: pointer;
+} 
+.slidheader .slicart i{
+	display: block;
+	width: 29px;
+	height: 20px;
+	margin-top: 15px;
+	float: left;
+	background: url("../images/ui-icon.png") no-repeat  -29px -330px;
+}
+.slidheader .slicart span{
+	display: block;
+	line-height: 46px;
+	color: #fff;
+	font-size: 16px;
+	margin-left: 5px;
+	float: left;
+	
+}
+.slidheader .slical{
+	width: 700px;
+	height: 46px;
+	float: left;
+}
+.slidheader .slinfo{
+	height: 46px;
+	
+    width: 700px;
+}
+.slidheader .slinfo li{
+   height: 46px;
+   float: left;
+   padding:0 10px 0 10px;
+   border-right:1px solid #e5e5e5;
+   cursor: pointer;
+}
+.slidheader .slinfo li.active{
+	background:#fff;
+}
+.slidheader .slinfo li span{
+   	display: block;
+   	line-height: 45px;
+   	height: 45px;
+   	color: #666;
+
+   }
+.slidheader .slinfo li b{
+ 	color:red;
+ }
+
+
+
+.slidheader .gostore1{
+	width: 88px;
+	height: 30px;
+	border: 1px solid #999;
+	border-radius: 5px;
+	padding: 5px;
+	background:#f8f8f8;
+	float: right;
+	margin-top: 6px;
+	box-sizing:border-box;
+    cursor: pointer;
+}
+.slidheader .gostore1 i{
+  background: url("../images/s-icon.png") no-repeat -296px -312px;
+  width: 15px;
+	height: 16px;
+	
+	display:block;
+	float: left;
+	margin-right: 3px;
+}
+.slidheader .gostore1 span{
+	line-height: 20px;
+	float: left;
+}
+

@@ -1,0 +1,1116 @@
+.registcenter{
+	width: 900px;
+	margin: 0 auto;
+}
+.regheader{
+	height: 100px;
+}
+.regheader a{
+	display: block;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+/**************/
+.regmain1 .retab{
+	width: 900px;
+	height: 34px;
+}
+.regmain1 .regtitle{
+	height: 35px;
+	width: 470px;
+	margin-left: 200px;
+	float: left;
+}
+.regmain1 .regtitle li{
+	float: left;
+	width: 106px;
+	height: 35px;
+	margin-right: 8px;
+	border:1px solid #e5e5e5;
+	border-bottom: 0;
+}
+.regmain1 .regtitle li.active{
+	
+	background: #fff;
+}
+.regmain1 .regtitle li.active span{
+	color: #d61318;
+	background: #fff;
+}
+.regmain1 .regtitle li span{
+	display: block;
+	font-size: 12px;
+	line-height: 35px;
+	height: 36px;
+	text-align: center;
+}
+.regmain1 .golog{
+   float: right;
+}
+.regmain1 .golog span{
+	font-size: 12px;
+	line-height: 35px;
+}
+.regmain1 .golog a{
+	font-size: 12px;
+	color: #ff611b;
+	line-height: 35px;
+}
+
+/*********************/
+.regmessage{
+	width: 900px;
+	/*height: 1037px;*/
+	padding-top: 42px;
+	border:1px solid #e5e5e5;
+	overflow: hidden;
+}
+.regmessage li.indivual{
+   width: 900px;
+   height: 530px;
+   display: block;
+}
+.regmessage li.indivual .nameinfo{
+	width: 900px;
+	height: 432px;
+	background: url(../images/bg-regist.jpg) no-repeat right top;
+
+}
+.regmessage li.indivual .nameinfo h2{
+	padding-left: 28px;
+	font-size: 22px;
+	height: 60px;
+}
+.regmessage li.indivual .nameinfo .regtel{
+	height: 62px;
+	padding-left: 50px;
+}
+li.indivual .nameinfo .regtel span{
+	width: 110px;
+	color: #666;
+	display: block;
+	float: left; 
+	padding-top:6px;
+
+}
+
+li.indivual .nameinfo .regtel .telinput{
+	width: 290px;
+	height: 24px;
+	float: left;
+	border:1px solid #ebebeb;
+	line-height: 24px;
+	font-size: 12px;
+	color: #333;
+	padding-left: 12px;
+}
+li.indivual .nameinfo .regtel b{
+	background: url('../images/s-icon.png') 0 -268px no-repeat;
+	display: block;
+	float: left;margin-left: 3px;
+	width: 20px;
+	height: 20px;
+	visibility: hidden;
+}
+li.indivual .nameinfo .regtel .telalert{
+	height: 30px;
+	width: 300px;
+	visibility: hidden;
+}
+li.indivual .nameinfo .regtel .telalert i{
+	margin-left: 100px;
+	display: block;
+	width: 20px;
+	height: 20px;
+    float: left;
+    background: url(../images/s-icon.png) no-repeat 0 0px;
+}
+li.indivual .nameinfo .regtel .telalert span{
+	display: block;
+	color: #ff611b;
+	width: 160px;
+	height: 20px;
+	float: left;
+	padding-top: 0;
+} 
+
+::-webkit-input-placeholder { /* WebKit browsers */ 
+color: #d8d8eb; 
+} 
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */ 
+color: #d8d8eb; 
+} 
+::-moz-placeholder { /* Mozilla Firefox 19+ */ 
+color: #d8d8eb; 
+} 
+:-ms-input-placeholder { /* Internet Explorer 10+ */ 
+color: #d8d8eb; 
+}
+
+/*********/
+
+.regmessage li.indivual .nameinfo .regcheck{
+	height: 62px;
+	padding-left: 50px;
+}
+li.indivual .nameinfo .regcheck span{
+	width: 110px;
+	color: #666;
+	display: block;
+	float: left; 
+	padding-top:6px;
+}
+li.indivual .nameinfo .regcheck .checkinput{
+	width: 125px;
+	height: 24px;
+	float: left;
+	border:1px solid #ebebeb;
+	line-height: 24px;
+	font-size: 12px;
+	color: #333;
+	padding-left: 12px;
+}
+li.indivual .nameinfo .regcheck b{
+	background: url('../images/s-icon.png') 0 -268px no-repeat;
+	display: block;
+	float: left;margin-left: 3px;
+	width: 20px;
+	height: 20px;
+	visibility: hidden;
+}
+li.indivual .nameinfo .regcheck .getcheck{
+	float: left;
+	width: 115px;
+	height: 24px;
+	line-height: 24px;
+	border:1px solid #ebebeb;
+	margin-left: 6px;
+	background: #f8f8f8;
+	color: #666;
+	font-size: 12px;
+}
+li.indivual .nameinfo .regcheck .checkalert{
+	height: 30px;
+	width: 300px;
+	visibility: hidden;
+}
+li.indivual .nameinfo .regcheck .checkalert i{
+	margin-left: 100px;
+	display: block;
+	width: 20px;
+	height: 20px;
+    float: left;
+    background: url(../images/s-icon.png) no-repeat 0 0px;
+}
+li.indivual .nameinfo .regcheck  .checkalert span{
+	display: block;
+	color: #ff611b;
+	width: 160px;
+	height: 20px;
+	float: left;
+	padding-top: 0;
+} 
+
+
+/********/
+
+.regmessage li.indivual .nameinfo .setpass{
+	height: 62px;
+	padding-left: 50px;
+}
+li.indivual .nameinfo .setpass span{
+	width: 110px;
+	color: #666;
+	display: block;
+	float: left; 
+	padding-top:6px;
+
+}
+li.indivual .nameinfo .setpass .pass1input{
+	width: 290px;
+	height: 24px;
+	float: left;
+	border:1px solid #ebebeb;
+	line-height: 24px;
+	font-size: 12px;
+	color: #333;
+	padding-left: 12px;
+}
+li.indivual .nameinfo .setpass b{
+	background: url('../images/s-icon.png') 0 -268px no-repeat;
+	display: block;
+	float: left;margin-left: 3px;
+	width: 20px;
+	height: 20px;
+	visibility: hidden;
+}
+li.indivual .nameinfo .setpass .setpalert{
+	height: 30px;
+	width: 300px;
+	visibility: hidden;
+}
+li.indivual .nameinfo .setpass .setpalert i{
+	margin-left: 100px;
+	display: block;
+	width: 20px;
+	height: 20px;
+    float: left;
+    background: url(../images/s-icon.png) no-repeat 0 0px;
+}
+li.indivual .nameinfo .setpass .setpalert span{
+	display: block;
+	color: #ff611b;
+	width: 160px;
+	height: 20px;
+	float: left;
+	padding-top: 0;
+} 
+
+
+/*******/
+
+.regmessage li.indivual .nameinfo .repepass{
+	height: 62px;
+	padding-left: 50px;
+}
+li.indivual .nameinfo .repepass span{
+	width: 110px;
+	color: #666;
+	display: block;
+	float: left; 
+	padding-top:6px;
+
+}
+li.indivual .nameinfo .repepass .pass2input{
+	width: 290px;
+	height: 24px;
+	float: left;
+	border:1px solid #ebebeb;
+	line-height: 24px;
+	font-size: 12px;
+	color: #333;
+	padding-left: 12px;
+}
+li.indivual .nameinfo .repepass b{
+	background: url('../images/s-icon.png') 0 -268px no-repeat;
+	display: block;
+	float: left;margin-left: 3px;
+	width: 20px;
+	height: 20px;
+	visibility: hidden;
+}
+li.indivual .nameinfo .repepass .repepalert{
+	height: 30px;
+	width: 300px;
+	visibility: hidden;
+}
+li.indivual .nameinfo .repepass .repepalert i{
+	margin-left: 100px;
+	display: block;
+	width: 20px;
+	height: 20px;
+    float: left;
+    background: url(../images/s-icon.png) no-repeat 0 0px;
+}
+li.indivual .nameinfo .repepass .repepalert span{
+	display: block;
+	color: #ff611b;
+	width: 160px;
+	height: 20px;
+	float: left;
+	padding-top: 0;
+} 
+
+/*************/
+.regmessage li.indivual .nameinfo .chagree{
+	height: 62px;
+	padding-left: 142px;
+}
+li.indivual .nameinfo .chagree .agreecheck{
+	/*width: 110px;*/
+	color: #666;
+}
+li.indivual .nameinfo .chagree span a{
+   color: #0098dc;
+}
+
+/************/
+.regmessage li.indivual .nameinfo .goreg{
+	height: 62px;
+	padding-left: 142px;
+}
+li.indivual .nameinfo .goreg .gozhu{
+	width: 110px;
+	color: #fff;
+	width:115px;
+	height: 30px;
+	background: #ff611b; 
+	text-align: center;
+	font-weight: 700;
+	line-height: 30px;
+	border-radius: 2px;
+}
+
+
+/****************/
+.copy1{
+	margin-top: 15px;
+}
+.copy1,.copy2{
+	text-align: center;
+	line-height: 25px;
+}
+
+/***************************************************************************************/
+
+
+
+.regmessage li.wanqi{
+   width: 900px;
+   height: 1037px;
+    display: none;
+}
+.regmessage li.wanqi .wanqiinfo{
+	width: 900px;
+	height: 370px;
+	background: url(../images/bg-regist.jpg) no-repeat right top;
+
+}
+.regmessage li.wanqi .wanqiinfo h2{
+	padding-left: 28px;
+	font-size: 22px;
+	height: 60px;
+}
+/**/
+ .regmessage li.wanqi .wanqiinfo .reg2user{
+	height: 62px;
+	width: 900px;
+	padding-left: 50px;
+}
+li.wanqi .wanqiinfo .reg2user b{
+	background: url('../images/s-icon.png') 0 -268px no-repeat;
+	display: block;
+	float: left;margin-left: 3px;
+	width: 20px;
+	height: 20px;
+	/*visibility: hidden;*/
+}
+li.wanqi .wanqiinfo .reg2user span{
+	width: 110px;
+	color: #666;
+	display: block;
+	float: left; 
+	padding-top:6px;
+
+}
+li.wanqi .wanqiinfo .reg2user .userinput{
+	width: 290px;
+	height: 24px;
+	float: left;
+	border:1px solid #ebebeb;
+	line-height: 24px;
+	font-size: 12px;
+	color: #333;
+	padding-left: 12px;
+}
+li.wanqi .wanqiinfo .reg2user .useralert{
+	height: 30px;
+	width: 328px;
+	/*visibility:hidden;*/
+}
+li.wanqi .wanqiinfo .reg2user .useralert i{
+	margin-left: 100px;
+	display: block;
+	width: 20px;
+	height: 20px;
+    float: left;
+    background: url(../images/s-icon.png) no-repeat 0 0px;
+}
+li.wanqi .wanqiinfo .reg2user .useralert span{
+	display: block;
+	color: #ff611b;
+	width: 160px;
+	height: 20px;
+	float: left;
+	padding-top: 0;
+} 
+
+/***************/
+.regmessage li.wanqi .wanqiinfo .reg2tel{
+	height: 62px;
+	padding-left: 50px;
+}
+li.wanqi .wanqiinfo .reg2tel span{
+	width: 110px;
+	color: #666;
+	display: block;
+	float: left; 
+	padding-top:6px;
+
+}
+li.wanqi .wanqiinfo .reg2tel b{
+	background: url('../images/s-icon.png') 0 -268px no-repeat;
+	display: block;
+	float: left;margin-left: 3px;
+	width: 20px;
+	height: 20px;
+	/*visibility: hidden;*/
+}
+li.wanqi .wanqiinfo .reg2tel .telinput{
+	width: 290px;
+	height: 24px;
+	float: left;
+	border:1px solid #ebebeb;
+	line-height: 24px;
+	font-size: 12px;
+	color: #333;
+	padding-left: 12px;
+}
+li.wanqi .wanqiinfo .reg2tel .telalert{
+	height: 30px;
+	width: 300px;
+	
+}
+li.wanqi .wanqiinfo .reg2tel .telalert i{
+	margin-left: 100px;
+	display: block;
+	width: 20px;
+	height: 20px;
+    float: left;
+    background: url(../images/s-icon.png) no-repeat 0 0px;
+}
+li.wanqi .wanqiinfo .reg2tel .telalert span{
+	display: block;
+	color: #ff611b;
+	width: 160px;
+	height: 20px;
+	float: left;
+	padding-top: 0;
+} 
+
+
+
+/************/
+
+.regmessage li.wanqi .wanqiinfo .reg2check{
+	height: 62px;
+	padding-left: 50px;
+}
+li.wanqi .wanqiinfo .reg2check span{
+	width: 110px;
+	color: #666;
+	display: block;
+	float: left; 
+	padding-top:6px;
+}
+
+li.wanqi .wanqiinfo .reg2check .checkinput{
+	width: 125px;
+	height: 24px;
+	float: left;
+	border:1px solid #ebebeb;
+	line-height: 24px;
+	font-size: 12px;
+	color: #333;
+	padding-left: 12px;
+}
+li.wanqi .wanqiinfo .reg2check .getcheck{
+	float: left;
+	width: 115px;
+	height: 24px;
+	line-height: 24px;
+	border:1px solid #ebebeb;
+	margin-left: 6px;
+	background: #f8f8f8;
+	color: #666;
+	font-size: 12px;
+}
+li.wanqi .wanqiinfo .reg2check .checkalert{
+	height: 30px;
+	width: 300px;
+	
+}
+li.wanqi .wanqiinfo .reg2check .checkalert i{
+	margin-left: 100px;
+	display: block;
+	width: 20px;
+	height: 20px;
+    float: left;
+    background: url(../images/s-icon.png) no-repeat 0 0px;
+}
+li.wanqi .wanqiinfo .reg2check  .checkalert span{
+	display: block;
+	color: #ff611b;
+	width: 160px;
+	height: 20px;
+	float: left;
+	padding-top: 0;
+} 
+
+
+/********/
+
+.regmessage li.wanqi .wanqiinfo .set2pass{
+	height: 62px;
+	padding-left: 50px;
+}
+li.wanqi .wanqiinfo .set2pass span{
+	width: 110px;
+	color: #666;
+	display: block;
+	float: left; 
+	padding-top:6px;
+
+}
+li.wanqi .wanqiinfo .set2pass b{
+	background: url('../images/s-icon.png') 0 -268px no-repeat;
+	display: block;
+	float: left;margin-left: 3px;
+	width: 20px;
+	height: 20px;
+	/*visibility: hidden;*/
+}
+li.wanqi .wanqiinfo .set2pass .pass1input{
+	width: 290px;
+	height: 24px;
+	float: left;
+	border:1px solid #ebebeb;
+	line-height: 24px;
+	font-size: 12px;
+	color: #333;
+	padding-left: 12px;
+}
+li.wanqi .wanqiinfo .set2pass .setpalert{
+	height: 30px;
+	width: 300px;
+	
+}
+li.wanqi .wanqiinfo .set2pass .setpalert i{
+	margin-left: 100px;
+	display: block;
+	width: 20px;
+	height: 20px;
+    float: left;
+    background: url(../images/s-icon.png) no-repeat 0 0px;
+}
+li.wanqi .wanqiinfo .set2pass .setpalert span{
+	display: block;
+	color: #ff611b;
+	width: 160px;
+	height: 20px;
+	float: left;
+	padding-top: 0;
+} 
+
+
+/*******/
+
+.regmessage li.wanqi .wanqiinfo .repe2pass{
+	height: 62px;
+	padding-left: 50px;
+}
+li.wanqi .wanqiinfo .repe2pass span{
+	width: 110px;
+	color: #666;
+	display: block;
+	float: left; 
+	padding-top:6px;
+
+}
+li.wanqi .wanqiinfo .repe2pass b{
+	background: url('../images/s-icon.png') 0 -268px no-repeat;
+	display: block;
+	float: left;margin-left: 3px;
+	width: 20px;
+	height: 20px;
+	/*visibility: hidden;*/
+}
+li.wanqi .wanqiinfo .repe2pass .pass2input{
+	width: 290px;
+	height: 24px;
+	float: left;
+	border:1px solid #ebebeb;
+	line-height: 24px;
+	font-size: 12px;
+	color: #333;
+	padding-left: 12px;
+}
+li.wanqi .wanqiinfo .repe2pass .repepalert{
+	height: 30px;
+	width: 300px;
+	
+}
+li.wanqi .wanqiinfo .repe2pass .repepalert i{
+	margin-left: 100px;
+	display: block;
+	width: 20px;
+	height: 20px;
+    float: left;
+    background: url(../images/s-icon.png) no-repeat 0 0px;
+}
+li.wanqi .wanqiinfo .repe2pass .repepalert span{
+	display: block;
+	color: #ff611b;
+	width: 160px;
+	height: 20px;
+	float: left;
+	padding-top: 0;
+} 
+
+/*************/
+.regmessage li.indivual .nameinfo .chagree{
+	height: 62px;
+	padding-left: 142px;
+}
+li.indivual .nameinfo .chagree .agreecheck{
+	/*width: 110px;*/
+	color: #666;
+}
+li.indivual .nameinfo .chagree span a{
+   color: #0098dc;
+}
+
+/***************************/
+
+.regmessage li.wanqi .offerinfo{
+	width: 900px;
+	height: 400px;
+
+}
+
+.regmessage li.wanqi .offerinfo h2{
+   margin-left: 24px;
+   margin-right: 24px;
+   border-top: 1px dashed #eee;
+   height: 60px;
+   width: 862px;
+   font-size: 18px;
+}
+/****/
+
+/*******/
+
+.regmessage li.wanqi .offerinfo .comname{
+	height: 62px;
+	padding-left: 50px;
+}
+li.wanqi .offerinfo .comname span{
+	width: 110px;
+	color: #666;
+	display: block;
+	float: left; 
+	padding-top:6px;
+
+}
+li.wanqi .offerinfo .comname .cnameinput{
+	width: 290px;
+	height: 24px;
+	float: left;
+	border:1px solid #ebebeb;
+	line-height: 24px;
+	font-size: 12px;
+	color: #333;
+	padding-left: 12px;
+}
+li.wanqi .offerinfo .comname .comnalert{
+	height: 30px;
+	width: 300px;
+	
+}
+li.wanqi .offerinfo .comname .comnalert i{
+	margin-left: 100px;
+	display: block;
+	width: 20px;
+	height: 20px;
+    float: left;
+    background: url(../images/s-icon.png) no-repeat 0 0px;
+}
+li.wanqi .offerinfo .comname .comnalert span{
+	display: block;
+	color: #ff611b;
+	width: 160px;
+	height: 20px;
+	float: left;
+	padding-top: 0;
+} 
+li.wanqi .offerinfo .comname b{
+	background: url('../images/s-icon.png') 0 -268px no-repeat;
+	display: block;
+	float: left;margin-left: 3px;
+	width: 20px;
+	height: 20px;
+}
+/************************/
+.regmessage li.wanqi .offerinfo .comhuman{
+	height: 62px;
+	padding-left: 50px;
+}
+li.wanqi .offerinfo .comhuman span{
+	width: 110px;
+	color: #666;
+	display: block;
+	float: left; 
+	padding-top:6px;
+
+}
+li.wanqi .offerinfo .comhuman .chuminput{
+	width: 290px;
+	height: 24px;
+	float: left;
+	border:1px solid #ebebeb;
+	line-height: 24px;
+	font-size: 12px;
+	color: #333;
+	padding-left: 12px;
+}
+li.wanqi .offerinfo .comhuman .comhuman{
+	height: 30px;
+	width: 300px;
+	
+}
+li.wanqi .offerinfo .comhuman .humanalert{
+	height: 30px;
+	width: 300px;
+	
+}
+li.wanqi .offerinfo .comhuman .humanalert i{
+	margin-left: 100px;
+	display: block;
+	width: 20px;
+	height: 20px;
+    float: left;
+    background: url(../images/s-icon.png) no-repeat 0 0px;
+}
+li.wanqi .offerinfo .comhuman .humanalert span{
+	display: block;
+	color: #ff611b;
+	width: 160px;
+	height: 20px;
+	float: left;
+	padding-top: 0;
+} 
+li.wanqi .offerinfo .comhuman b{
+	background: url('../images/s-icon.png') 0 -268px no-repeat;
+	display: block;
+	float: left;
+	margin-left: 3px;
+	width: 20px;
+	height: 20px;
+}
+
+/******************/
+.regmessage li.wanqi .offerinfo .comtel{
+	height: 62px;
+	padding-left: 50px;
+}
+li.wanqi .offerinfo .comtel span{
+	width: 110px;
+	color: #666;
+	display: block;
+	float: left; 
+	padding-top:6px;
+
+}
+li.wanqi .offerinfo .comtel .ctelinput{
+	width: 290px;
+	height: 24px;
+	float: left;
+	border:1px solid #ebebeb;
+	line-height: 24px;
+	font-size: 12px;
+	color: #333;
+	padding-left: 12px;
+}
+li.wanqi .offerinfo .comtel .ctelalert{
+	height: 30px;
+	width: 300px;
+	
+}
+li.wanqi .offerinfo .comtel .ctelalert{
+	height: 30px;
+	width: 300px;
+	
+}
+li.wanqi .offerinfo .comtel .ctelalert i{
+	margin-left: 100px;
+	display: block;
+	width: 20px;
+	height: 20px;
+    float: left;
+    background: url(../images/s-icon.png) no-repeat 0 0px;
+}
+li.wanqi .offerinfo .comtel .ctelalert span{
+	display: block;
+	color: #ff611b;
+	width: 160px;
+	height: 20px;
+	float: left;
+	padding-top: 0;
+} 
+li.wanqi .offerinfo .comtel b{
+	background: url('../images/s-icon.png') 0 -268px no-repeat;
+	display: block;
+	float: left;
+	margin-left: 3px;
+	width: 20px;
+	height: 20px;
+}
+
+/******************/
+select {
+  /*Chrome和Firefox里面的边框是不一样的，所以复写了一下*/
+  border: solid 1px #000;
+
+  /*很关键：将默认的select选择框样式清除*/
+  appearance:none;
+  -moz-appearance:none;
+  -webkit-appearance:none;
+
+  /*在选择框的最右侧中间显示小箭头图片*/
+  background: url("http://ourjs.github.io/static/2015/arrow.png") no-repeat scroll right center transparent;
+
+
+  /*为下拉小箭头留出一点位置，避免被文字覆盖*/
+  padding-right: 14px;
+}
+
+
+/*清除ie的默认选择框样式清除，隐藏下拉箭头*/
+select::-ms-expand { display: none; }
+
+
+
+.regmessage li.wanqi .offerinfo .comspace{
+	height: 62px;
+	padding-left: 45px;
+	position: relative;
+}
+li.wanqi .offerinfo .comspace span{
+	width: 110px;
+	color: #666;
+	display: block;
+	float: left; 
+	padding-top:6px;
+
+}
+li.wanqi .offerinfo .comspace .province,li.wanqi .offerinfo .comspace .city,li.wanqi .offerinfo .comspace .country{
+	width: 140px;
+	height: 24px;
+	float: left;
+	border:1px solid #ebebeb;
+	line-height: 24px;
+	font-size: 12px;
+	color: #333;
+	padding-left: 8px;
+	margin-left: 6px;
+}
+
+li.wanqi .offerinfo .comspace .spacealert{
+	height: 30px;
+	width: 300px;
+	
+}
+li.wanqi .offerinfo .comspace .spacealert i{
+	margin-left: 100px;
+	display: block;
+	width: 20px;
+	height: 20px;
+    float: left;
+    background: url(../images/s-icon.png) no-repeat 0 0px;
+}
+li.wanqi .offerinfo .comspace .spacealert span{
+	display: block;
+	color: #ff611b;
+	width: 160px;
+	height: 20px;
+	float: left;
+	padding-top: 0;
+} 
+/***********************/
+.regmessage li.wanqi .offerinfo .talent{
+	height: 30px;
+	width: 560px;
+	padding-left: 45px;
+	padding-bottom: 15px;
+}
+li.wanqi .offerinfo .talent span{
+	width: 110px;
+	color: #666;
+	display: block;
+	float: left; 
+	padding-top:6px;
+}
+li.wanqi .offerinfo .talent em{
+	width: 368px;
+	color: #ff611b;
+	display: block;
+	float: left; 
+	padding-top:6px;
+}
+li.wanqi .offerinfo .talentfile{
+	height: 30px;
+	width: 560px;
+	padding-left: 160px;
+}
+
+li.wanqi .offerinfo .talentfile .addtalent{
+	width: 60px;
+	height: 25px;
+	background: #fff;
+	border:1px solid #eee;
+	color: #666;
+	font-size: 12px;
+}
+
+/*************************/
+.regmessage li.wanqi .offerinfo .caima{
+	height: 62px;
+	padding-left: 50px;
+}
+li.wanqi .offerinfo .caima span{
+	width: 110px;
+	color: #666;
+	display: block;
+	float: left; 
+	padding-top:6px;
+
+}
+li.wanqi .offerinfo .caima .caimainput{
+	width: 290px;
+	height: 24px;
+	float: left;
+	border:1px solid #ebebeb;
+	line-height: 24px;
+	font-size: 12px;
+	color: #333;
+	padding-left: 12px;
+}
+li.wanqi .offerinfo .caima .caimaalert{
+	height: 30px;
+	width: 300px;
+	
+}
+li.wanqi .offerinfo .caima .caimaalert i{
+	margin-left: 100px;
+	display: block;
+	width: 20px;
+	height: 20px;
+    float: left;
+    background: url(../images/s-icon.png) no-repeat 0 0px;
+}
+li.wanqi .offerinfo .caima .caimaalert span{
+	display: block;
+	color: #ff611b;
+	width: 160px;
+	height: 20px;
+	float: left;
+	padding-top: 0;
+} 
+li.wanqi .offerinfo .caima b{
+	background: url('../images/s-icon.png') 0 -268px no-repeat;
+	display: block;
+	float: left;
+	margin-left: 3px;
+	width: 20px;
+	height: 20px;
+}
+
+/**************/
+.regmessage li.wanqi .offerinfo .contract{
+	height: 62px;
+	padding-left: 50px;
+}
+li.wanqi .offerinfo .contract span{
+	width: 110px;
+	color: #666;
+	display: block;
+	float: left; 
+	padding-top:6px;
+
+}
+li.wanqi .offerinfo .contract .continput{
+	width: 290px;
+	height: 24px;
+	float: left;
+	border:1px solid #ebebeb;
+	line-height: 24px;
+	font-size: 12px;
+	color: #333;
+	padding-left: 12px;
+}
+li.wanqi .offerinfo .contract .contalert{
+	height: 30px;
+	width: 300px;
+	
+}
+li.wanqi .offerinfo .contract .contalert i{
+	margin-left: 100px;
+	display: block;
+	width: 20px;
+	height: 20px;
+    float: left;
+    background: url(../images/s-icon.png) no-repeat 0 0px;
+}
+li.wanqi .offerinfo .contract .contalert span{
+	display: block;
+	color: #ff611b;
+	width: 160px;
+	height: 20px;
+	float: left;
+	padding-top: 0;
+} 
+li.wanqi .offerinfo .contract b{
+	background: url('../images/s-icon.png') 0 -268px no-repeat;
+	display: block;
+	float: left;
+	margin-left: 3px;
+	width: 20px;
+	height: 20px;
+}
+
+
+
+/*************/
+.regmessage li.wanqi .offerinfo  .chagree{
+	height: 50px;
+	padding-left: 142px;
+}
+li.wanqi .offerinfo  .chagree .agreecheck{
+	/*width: 110px;*/
+	color: #666;
+}
+li.wanqi .offerinfo  .chagree span a{
+   color: #0098dc;
+}
+
+/************/
+.regmessage li.wanqi .offerinfo .goreg{
+	height: 62px;
+	padding-left: 142px;
+	padding-bottom: 100px;
+}
+li.wanqi .offerinfo .goreg .gozhu{
+	width: 110px;
+	color: #fff;
+	width:115px;
+	height: 30px;
+	background: #ff611b; 
+	text-align: center;
+	font-weight: 700;
+	line-height: 30px;
+	border-radius: 2px;
+}
+/******************************************************/
+
+
+.regmessage li.company{
+   width: 900px;
+   height: 530px;
+   display: none;
+}
+/**********************************************************/
+.regmessage li.providecom{
+   width: 900px;
+   height: 530px;
+   display: none;
+}

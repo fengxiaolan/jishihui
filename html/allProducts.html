@@ -1,0 +1,169 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>所有商品</title>
+	<link rel="shortcut icon" href="/favicon.ico"/>
+	<link rel="bookmark" href="/favicon.ico"/>
+
+ 
+<link rel="stylesheet" type="text/css" href="../css/reset.css">
+<link rel="stylesheet" type="text/css" href="../css/font/iconfont.css">
+  <link rel="stylesheet" type="text/css" href="../css/headpro.css">
+  <link rel="stylesheet" type="text/css" href="../css/footer.css">
+  <link rel="stylesheet" type="text/css" href="../css/allProducts.css">
+
+</head>
+<body>
+
+   <script src="../js/lib/jquery/jquery-1.12.4.min.js"></script>
+   <script src="../js/lib/jquery_plugins/jquery.cookie.js"></script>
+   <script src="../js/lib/arttemplate/template-native.js"></script>
+   <script src="../js/allProducts.js"></script>
+   <!--  头部*********************************-->
+   <div id="allheader">
+
+   </div>
+<!-- **主体********************************************** -->
+   <div class="allrange">
+       <div class="center">
+           <i></i>首页
+        <span>></span>
+        <a href="#">所有商品</a>
+       </div>
+   </div>
+   <!--  -->
+   <div class="allclass ">
+   	  <div class="center">
+   	  	<div class="classbox clearfix">
+	       <h2>商品分类</h2>
+	       <ul class="allc">
+	          <li><a href="#">有机农产品</a></li>
+	          <li><a href="#">农产品地理标志</a></li>
+	          <li><a href="#">清真食品</a></li>
+	          <li><a href="#">绿色食品</a></li>
+	          <li><a href="#">零添加剂</a></li>
+	       </ul>
+	       </div>
+       </div>
+   </div>
+
+   <!-- *主体商品情况******************* -->
+   <div class="allmain">
+     <div class="center clearfix">
+          <div class="allleft">
+             <h2>热销商品</h2>
+             <h2>最近浏览</h2>
+          </div>
+
+          <!--  -->
+          <div class="allright">
+             <div class="priceinfo ">
+                <b>价格:</b>
+                <a href="#" class="active">全部</a>
+                <a href="#">100-300</a>
+                <a href="#">300-500</a>
+                <a href="#">500-800</a>
+                <a href="#">800-1000</a>
+                <a href="#">1000以上</a>
+               
+               <div class="prange">
+                   <input type="text" class="minp">
+                   <span>-</span>
+                   <input type="text" class="maxp">
+               </div>
+             </div>
+
+             <!--  -->
+             <div class="amountinfo ">
+                 <div class="amotit">
+                   <a href="#"><b>销量</b><i></i></a>
+                   <a href="#"><b>价格</b><i></i></a>
+                   <a href="#"><b>最新</b><i></i></a>
+                  </div>
+                  <div class="apage">
+                      <i class="zuo"></i>
+                      <span class="curpage">1</span> 
+                      <b>/70</b>
+                      <i class="you"></i> 
+                  </div>
+             </div>
+               <!--  -->
+             <div class="aproducts clearfix">
+                <!-- <div class="apro1">
+                   <a href="#"><img src="../images/all1.jpg"></a>
+                   <div class="aldetail">
+                      <span class="alprice">￥  24.00</span>
+	                   <p>绝味鸭脖200g</p>
+	                   <span class="alorder">成交35笔</span>
+                   </div>
+                </div> -->      
+             </div>
+
+             <!-- *分页情况**** -->
+             <div class="allpages">
+                <div class="pagesinfo clearfix">
+                 <a href="#" class="pr">&lt;上一页</a>
+                 <a href="#" class="active">1</a>
+                 <a href="#">2</a>
+                 <a href="#">3</a>
+                 <a href="#">2</a>
+                 <a href="#">4</a>
+                 <a href="#">5</a>
+                 <a href="#">6</a>
+                 <a href="#">7</a>
+                 <a href="#">8</a>
+                 <a href="#">9</a>
+                 <a href="#">10</a>
+                 <a href="#">...</a>
+                 <a href="#">70</a>
+                 <a href="#" class="pr">&gt;下一页</a>
+                 <div class="leapage">
+                  向第<input type="text" class="pageinput">
+                  页跳转<input type="button" value="跳转" class="gopage">
+                 </div>
+               </div>
+
+             </div>
+
+
+
+          </div><!-- allright -->
+
+     </div><!-- center -->
+   </div><!-- allmain -->
+
+  
+
+<!-- **尾部******************************************* -->
+	<div id="allfooter">
+        
+	</div>
+
+  <!-- *商品展示模板****************************** -->
+  <script type="text/html" id="allprosid">
+    <%
+      for(var i=0;i<allpros.length;i++){
+        var allpro=allpros[i];
+    %>
+      <div class="apro1">
+                   <a href="#"><img src="<%=allpro.img %>"></a>
+                   <div class="aldetail">
+                      <span class="alprice">￥  <%=allpro.price %></span>
+                     <p><%=allpro.tit %></p>
+                     <span class="alorder">成交<%=allpro.amout %>笔</span>
+                   </div>
+                </div>
+    <%
+      }
+    %>
+  </script>
+
+
+<script type="text/javascript">
+   
+
+</script>
+      
+</body>
+</html>

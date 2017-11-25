@@ -1,0 +1,60 @@
+[
+  {
+  	"extgood":[
+	       {
+	       	"img":"../images/show.jpg",
+	       	"tit":"精品琥珀盒",
+	       	"price":"46.90"
+	       },
+	       {
+	       	"img":"../images/show2.jpg",
+	       	"tit":"精品琥珀盒",
+	       	"price":"46.90"
+	       },
+	       {
+	       	"img":"../images/show2.jpg",
+	       	"tit":"精品琥珀盒",
+	       	"price":"46.90"
+	       },
+	       {
+	       	"img":"../images/show.jpg",
+	       	"tit":"精品琥珀盒",
+	       	"price":"46.90"
+	       },
+	       {
+	       	"img":"../images/show.jpg",
+	       	"tit":"精品琥珀盒",
+	       	"price":"46.90"
+	       },
+	       {
+	       	"img":"../images/show2.jpg",
+	       	"tit":"精品琥珀盒",
+	       	"price":"46.90"
+	       },
+	       {
+	       	"img":"../images/show2.jpg",
+	       	"tit":"精品琥珀盒",
+	       	"price":"46.90"
+	       },
+	       {
+	       	"img":"../images/show.jpg",
+	       	"tit":"精品琥珀盒",
+	       	"price":"46.90"
+	       }
+	   ]
+  },
+
+
+
+  {
+  	"infoimg":[
+             {"img":"../images/songa.jpg" },
+             {"img":"../images/songb.jpg" },
+             {"img":"../images/songc.jpg" },
+             {"img":"../images/songd.jpg" },
+             {"img":"../images/songe.jpg" },
+             {"img":"../images/songf.jpg" },
+             {"img":"../images/songh.jpg" }
+  	      ]
+  }
+]

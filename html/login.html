@@ -1,0 +1,155 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>登录</title>
+	<link rel="shortcut icon" href="/favicon.ico"/>
+	<link rel="bookmark" href="/favicon.ico"/>
+	
+	<link rel="stylesheet" type="text/css" href="../css/reset.css">
+	<link rel="stylesheet" type="text/css" href="../css/login.css">
+
+</head>
+<body>
+
+   <script src="../js/lib/jquery/jquery-1.12.4.min.js"></script>
+   <script src="../js/lib/jquery_plugins/jquery.cookie.js"></script>
+   <script src="../js/lib/arttemplate/template-native.js"></script>
+   
+
+   <div id="header">
+   	<div class="center">
+      <div class="logo">
+           <a href="#"><img src="../images/logo.png"></a>
+      </div>
+      <div class="return1">
+         <a href="javascript:void(0);"><i></i><span>返回继续逛逛</span></a>
+         <img src="../images/slog1.jpg">
+      </div>
+    </div>
+   </div>
+<!-- ************************* -->
+<div id="logmain">
+  <div class="center clearfix">
+      <div class="logleft">
+           <img src="../images/loginmain.jpg">
+       </div>
+       <!-- *** -->
+       <div class="logform">
+           <h1>会员登录</h1>
+           <p>
+               <i></i>
+               <span>公共场所不建议自动登录，以防账号丢失</span>
+           </p>
+           
+               <div class="username">
+                  <i></i>
+                  <input type="text" placeholder="用户名/手机/邮箱" class="usern">
+              </div>
+              <div class="userinfo"><b></b><i></i><span>请输入用户名</span></div>
+              
+              <div class="password">
+              	 <i></i>
+                  <input type="password" placeholder="密码" class="passw">
+              </div>
+              <div class="passinfo"><b></b><i></i><span>请输入密码</span></div>
+              <div class="checkb">
+                <label>
+                  <input type="checkbox" class="check">
+                  两周内免登录</label>
+               </div>
+               <div class="btn">
+                  <input type="submit" value="登录" class="btn1">
+                </div>
+              <div class="logextend">
+                 <a href="#" class="regist">免费注册</a>
+                 <a href="#" class="forget">忘记密码？</a>
+              </div> 
+       </div>
+  </div>
+</div>
+<!-- *************** -->
+<div id="logfoot">
+ <div class="center">
+  <h1><pre>@2009-2020  渝ICP备12002277-3号  经营许可证编号:渝B2-20120008  食品流通许可证:SP5009</pre></h1>
+ <p><b>公司地址：重庆市两江新区星光大道软件园海王星E区 订购及售后服务电话:</b><i></i><span>4000-266-357</span></p>
+ </div>
+
+</div>
+
+
+<script type="text/javascript">
+
+  $(function(){
+    // 配置，自动转换
+      $.cookie.json = true;
+    //点击登录情况
+     $(".btn1").click(function(){
+          //console.log("登录");
+          var _uname=$(".usern").val();
+          var _pwd=$(".passw").val();      
+      //点击记住密码免登录
+     if($(".check").checked){
+        $.cookie("loginUser",_uname,{expires:8,path:"/"});
+        $.cookie("loginpwd",_pwd,{expires:8,path:"/"});
+     }else{
+        $.cookie("loginUser","",{expires:8,path:"/"});
+     }
+
+      //点击登录
+        $.ajax({
+            type:"get",
+            url:"http://localhost/project/login.php",
+            dataType:"json",
+            data:{
+              username:_uname,
+              password:_pwd
+            },
+            success:function(data){
+              console.log(data);
+              if(data.status==1){
+                 /*$.cookie("user",JSON.stringify(data.data)); //读取
+                 $.cookie("loginUser",_uname,{expires:8,path:"/"});  //保存*/
+                  location="/index.html"; 
+              }else{
+                alert("用户名或密码错误");
+              }
+            }
+        })
+          return false;
+     })
+
+   
+
+   //登录时简单的验证
+  $(".usern").blur(function(){
+    if($(".usern").val()==""){
+      $(".logform .userinfo span").stop().show();
+      $(".logform .userinfo i").stop().show();
+       $(".logform .userinfo b").stop().hide();
+    }else{
+      $(".logform .userinfo b").stop().show();
+      $(".logform .userinfo span").stop().hide();
+      $(".logform .userinfo i").stop().hide();
+    }
+  })
+     
+     $(".passw").blur(function(){
+    if($(".passw").val()==""){
+      $(".logform .passinfo span").stop().show();
+      $(".logform .passinfo i").stop().show();
+       $(".logform .passinfo b").stop().hide();
+    }else{
+      $(".logform .passinfo b").stop().show();
+      $(".logform .passinfo span").stop().hide();
+      $(".logform .passinfo i").stop().hide();
+    }
+  })
+
+
+
+  })
+</script>
+
+</body>
+</html>

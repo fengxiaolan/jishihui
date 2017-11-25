@@ -1,0 +1,286 @@
+#header{
+	height: 110px;
+	
+}
+#header .logo{
+	margin-left: 5px;
+	float: left;
+	padding-top: 20px;
+}
+#header .logo a{
+  display: block;
+/*  margin-top: 20px;*/
+
+}
+
+/*****************/
+#header .return1{
+	float: right;
+	width: 600px;
+	margin-right: 30px;
+	height: 100px;
+	padding-top: 10px;
+}
+#header .return1 a{
+	display: block;
+	float: right;
+	width: 110px;
+	line-height: 30px;
+	color: #666;
+}
+#header .return1 a i{
+	width: 30px;
+	height: 30px;
+	float: left;
+	display: inline-block;
+	display: block;
+	background: url(../images/ui-icon.png) no-repeat -473px -91px;
+}
+#header .return1 a span{
+  display: block;
+  line-height: 30px;
+  float: left;
+}
+/*********************/
+#logmain{
+	background: #fe4c4c;
+	height: 580px;
+}
+#logmain .logleft{
+	float: left;
+	height: 580px;
+	overflow: hidden;
+}
+#logmain .logleft img{
+	height: 100%;
+	vertical-align: top;
+}
+/*****/
+#logmain .logform{
+	float: left;
+	width: 320px;
+	height: 365px;
+	background: #ffeded;
+	margin-top: 75px;	
+	padding-top: 12px;
+	padding-left: 26px;
+	box-sizing:border-box;
+}
+#logmain .logform h1{
+	font-size: 16px;
+	margin-bottom: 15px;
+}
+#logmain .logform p{
+	width:266px; 
+	height: 26px;
+	background:#ffe2e2;
+	font-size: 10px;
+	line-height: 26px;
+}
+#logmain .logform p i{
+	display: block;
+	width: 20px;
+	height: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 3px;
+  	float: left;
+	background: url(../images/ui-icon.png) no-repeat 0 -288px;
+}
+#logmain .logform p span{
+	display: block;
+	float: left;
+}
+#logmain .logform .username{
+	height: 35px;
+	width: 266px;
+	border:1px solid #f2f2f2;
+	background: #fff;
+	margin-top: 20px;
+	padding-left: 8px;
+	overflow: hidden;
+	box-sizing:border-box;
+}
+#logmain .logform .username i{
+	display: block;
+	width: 28px;
+	height: 230px;
+	float: left;
+	background: url(../images/ui-icon.png) no-repeat -400px -125px;
+}
+#logmain .logform .username .usern{
+	height: 33px;
+	width: 222px;
+	float: left;
+	line-height: 35px;
+}
+
+#logmain .logform .userinfo b{
+	background: url('../images/s-icon.png') 0 -268px no-repeat;
+	display: block;
+	float: left;
+	margin-left: 3px;
+	width: 20px;
+	height: 20px;
+	display: none;
+}
+#logmain .logform .userinfo{
+	
+	width: 266px;
+	height: 20px;
+}
+#logmain .logform .userinfo i{
+	width: 14px;
+	height: 14px;
+	background: url(../images/s-icon.png) no-repeat 0 0px;
+	display: block;
+	float: left;
+	/*visibility: hidden;*/
+	display: none;
+}
+#logmain .logform .userinfo span{
+	color: red;
+	display: block;
+	float: left;
+	font-size: 10px;
+	margin-left: 5px;
+	display: none;
+}
+/**/
+#logmain .logform .password{
+	height: 35px;
+	width: 266px;
+	border:1px solid #f2f2f2;
+	background: #fff;
+	margin-top: 5px;
+	padding-left: 8px;
+	box-sizing:border-box;
+	overflow: hidden;
+
+}
+
+
+#logmain .logform .password i{
+	display: block;
+	width: 28px;
+	height: 30px;
+	float: left;
+	
+	background: url(../images/ui-icon.png) no-repeat -440px -125px;
+}
+#logmain .logform .password .passw{
+	height: 33px;
+	width: 222px;
+	float: left;
+	line-height: 35px;
+}
+
+#logmain .logform .passinfo{
+	width: 266px;
+	height: 20px;
+	
+}
+#logmain .logform .passinfo b{
+	background: url('../images/s-icon.png') 0 -268px no-repeat;
+	
+	float: left;
+	margin-left: 3px;
+	width: 20px;
+	height: 20px;
+	display: none;
+}
+#logmain .logform .passinfo i{
+	width: 14px;
+	height: 14px;
+	background: url(../images/s-icon.png) no-repeat 0 0px;
+	display: block;
+	float: left;
+	display: none;
+}
+#logmain .logform .passinfo span{
+	color: red;
+	display: block;
+	float: left;
+	font-size: 10px;
+	margin-left: 5px;
+	display: none;
+}
+
+
+
+#logmain .logform .checkb{
+	font-size: 12px;
+	color: #666;
+	margin-top: 5px;
+}
+#logmain .logform .btn{
+	height: 37px;
+	width: 266px;
+	border-radius: 3px;
+	background: #f63636;
+	margin-top: 20px;
+
+}
+#logmain .logform .btn .btn1{
+	line-height: 35px;
+	height: 35px;
+	width: 260px;
+	text-align: center;
+	color: #fff;
+	font-size: 16px;
+	background: #f63636;
+	cursor: pointer;
+}
+/********/
+#logmain .logform .logextend{
+	margin-top: 40px;
+	width: 266px;
+
+}
+.logform .logextend .regist{
+	float: left;
+	display: block;
+	font-size: 10px;
+	color: #666;
+}
+.logform .logextend .forget{
+	float: right;
+	display: block;
+	font-size: 10px;
+	color: #666;
+}
+
+/************/
+#logfoot{
+	height: 270px;
+	padding-top: 22px;
+	box-sizing:border-box;
+}
+#logfoot h1{
+	text-align: center;
+	font-size: 10px;
+	line-height: 20px;
+}
+#logfoot p{
+   font-size: 10px;
+   margin-left: 320px;
+   line-height: 24px;
+}
+#logfoot p b{
+	display: block;
+	float: left;
+}
+#logfoot p i{
+	display: block;
+	width: 20px;
+	height: 20px;
+	float: left;
+	margin-left: 5px;
+  	background: url(../images/ui-icon.gif) no-repeat -262px -40px;
+  }
+  #logfoot p span{
+  	display: block;
+	float: left;
+  	font-size: 14px;
+  	margin-left: 5px;
+  }

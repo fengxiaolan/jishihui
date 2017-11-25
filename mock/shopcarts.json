@@ -1,0 +1,41 @@
+[
+  {
+  	"storename":"四川的特产直供店",
+  	"img":"../images/car1.jpg",
+  	"name1":"福临门东北优质大米5kg",
+  	"name2":"重庆福临门直供",
+  	"price":"38.80",
+  	"total":"38.80"
+  },
+  {
+  	"storename":"四川的特产直供店2",
+  	"img":"../images/car2.jpg",
+  	"name1":"福临门东北优质大米5kg",
+  	"name2":"重庆福临门直供",
+  	"price":"38.80",
+  	"total":"38.80"
+  },
+  {
+  	"storename":"四川的特产直供店3",
+  	"img":"../images/car3.jpg",
+  	"name1":"福临门东北优质大米5kg",
+  	"name2":"重庆福临门直供",
+  	"price":"38.80",
+  	"total":"38.80"
+  },{
+  	"storename":"四川的特产直供店4",
+  	"img":"../images/car4.jpg",
+  	"name1":"福临门东北优质大米5kg",
+  	"name2":"重庆福临门直供",
+  	"price":"38.80",
+  	"total":"38.80"
+  },{
+    "storename":"四川的特产直供店5",
+    "img":"../images/car4.jpg",
+    "name1":"福临门东北优质大米5kg",
+    "name2":"重庆福临门直供",
+    "price":"38.80",
+    "total":"38.80"
+  }
+
+]

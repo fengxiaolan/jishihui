@@ -1,0 +1,326 @@
+/**{box-sizing:border-box;}*/
+.allrange{
+	height: 40px;
+	line-height: 40px;
+}
+.allrange i{
+	display: inline-block;
+   background: url(../images/s-icon.png) no-repeat 0 -180px;
+   padding-right: 8px;
+}
+.allrange a{	
+color: #666;
+}
+
+
+/***********/
+.allclass{
+	height: 32px;
+	margin-bottom: 10px;
+	
+}
+.allclass .classbox{
+	border:1px solid #e5e5e5;
+	width: 1190px;
+	height: 32px;
+}
+.allclass h2{
+	float:left;
+	width: 90px;
+	height: 32px;
+	text-align: center;
+	font-size: 14px;
+	line-height: 32px;
+	background:#f8f8f8; 
+}
+.allclass  .allc{
+	float: left;
+	
+}
+.allclass  .allc li{
+	width: 110px;
+	height: 32px;
+	text-align: center;
+	float: left;
+}
+.allclass  .allc li a{
+	font-size: 12px;
+	height: 22px;
+	line-height: 22px;
+	padding: 0 10px;
+	margin-top: 6px;
+	border-radius: 12px;
+	display: inline-block;
+	color: #666;
+}
+.allclass  .allc li a:hover{
+	background: #f27f88;
+	color: #fff;
+}
+/*************/
+.allmain{
+	background: #fff;
+}
+.allmain .allleft{
+	float: left;
+	width: 168px;
+	height: 32px;
+	margin-right: 12px;
+}
+.allmain .allleft h2{
+	background: #f8f8f8;
+	border:1px solid #e5e5e5;
+	color: #333;
+	font-size: 14px;
+	padding-left: 8px;
+	width: 160px;
+	height: 32px;
+	line-height: 32px;
+	margin-bottom: 8px;
+}
+.allmain .allright{
+	width: 1010px;
+	/*height: 1000px;*/
+	float: left;
+}
+.allmain .allright .priceinfo{
+	width: 1010px;
+	height: 36px;
+	border:1px solid #e5e5e5;
+	padding-left: 15px;
+	box-sizing:border-box;
+}
+.allmain .allright .priceinfo b{
+	display:block;
+	float: left;
+	font-size: 14px;
+	font-weight: 700;
+	color: #999;
+	line-height: 35px;
+
+}
+.allmain .allright .priceinfo  a{
+	display: block;
+	float: left;
+	margin: 0 0 0 12px;
+	line-height: 35px;
+	color: #999;
+	font-size: 14px;
+}
+.allmain .allright .priceinfo .prange{
+	float: right;
+	margin-right: 55px;
+	margin-top: 3px;
+}
+.allright .priceinfo .prange .minp{
+	width: 65px;
+	height: 24px;
+	border:1px solid #ccc;
+	float: left;
+	text-align: right;
+	padding: 0 5px 0 5px;
+	box-sizing:border-box;
+}
+.allright .priceinfo .prange span{
+	display: block;
+	width: 18px;
+	height:26px;
+	background: #f8f8f8;
+	float: left;
+	text-align: center;
+	line-height: 26px;
+}
+.allright .priceinfo .prange .maxp{
+	width: 65px;
+	height: 24px;
+	border:1px solid #ccc;
+	float: left;
+	text-align: right;
+	padding: 0 5px 0 5px;
+	box-sizing:border-box;
+}
+
+.allmain .allright .priceinfo  a.active{
+	color: #ff611b;
+}
+/**********/
+.allmain .allright .amountinfo{
+	width:1010px;
+	height: 40px;
+	background: #f8f8f8;
+	border:1px solid #eee;
+	border-top: 0;
+	padding-left: 10px;
+	box-sizing:border-box;
+}
+.allmain .allright .amountinfo .amotit{
+	width: 250px;
+	height: 40px;
+	float: left;
+	/*margin-left: -420px;*/
+}
+.allmain .allright .amountinfo a{
+	display: block;
+	float: left;
+	width:68px; 
+	height: 40px;
+	
+}
+.allmain .allright .amountinfo a b{
+	height: 40px;
+	width: 30px;
+	line-height: 30px;
+	color: #999;
+	text-align: left;
+	width:68px; 
+}
+.allmain .allright .amountinfo a i{
+	width: 10px;
+	height: 10px;
+	margin-left: 5px;
+	margin-top: 15px;
+	display: inline-block;
+	background: url(../images/s-icon.png) no-repeat -40px -180px; 
+}
+.allmain .allright .amountinfo .apage{
+	width: 98px;
+	height: 40px;
+	line-height: 40px;
+	color: #666;
+	float: right;
+}
+.allright .amountinfo .apage i{
+	display: block;
+	width: 20px;
+	height: 20px;
+	float: left;
+	margin-top: 10px;
+	cursor: pointer;
+}
+.allright .amountinfo .apage b{
+	display: block;
+	float: left;line-height: 35px;
+}
+.allright .amountinfo .apage i.zuo{
+	margin-right: 5px;
+	background: url(../images/s-icon.png) no-repeat -40px -160px;
+}
+.allright .amountinfo .apage i.you{
+	margin-left: 15px;
+	background: url(../images/s-icon.png) no-repeat -40px -140px;
+}
+.allright .amountinfo .apage .curpage{
+	color: #f00;
+	float: left;line-height: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+/*****************/
+.allmain .allright .aproducts{
+	width: 1010px;
+	/*height: 1000px;*/
+	border-left: 1px solid #eee;
+	box-sizing:border-box;
+}
+.allmain .allright .aproducts .apro1{
+	float: left;
+	border-right: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+	width: 252px;
+	height: 345px;
+	padding:18px; 
+	box-sizing:border-box;
+	cursor: pointer;
+}
+.allright .aproducts .apro1 img{
+	width: 206px;
+	height: 206px;
+}
+.allright .aproducts .apro1 .aldetail{
+	height: 100px;
+	margin-top: 17px;
+	
+}
+.allright .aproducts .apro1 .aldetail .alprice{
+	font-size:18px;
+	color: #dc1f1f;
+}
+.allright .aproducts .apro1 .aldetail p{
+	font-size: 10px;
+	color: #555;
+	line-height: 20px;
+	height: 48px;
+}
+.allright .aproducts .apro1  .aldetail .alorder{
+	font-size:9px;
+	color: #999; 
+	margin-bottom: 5px;
+}
+
+/*page*******************/
+.allright .allpages{
+	height: 26px;
+	margin: 18px 0 45px 0;
+}
+.allright .allpages .pagesinfo{
+	float: right;
+	margin-right: 10px;
+	height:26px;
+	
+}
+.allright .allpages .pagesinfo a{
+	display: block;
+	width: 24px;
+	height: 24px;
+	border:1px solid #e5e5e5;
+	background: #f8f8f8;
+	float: left;
+    margin-right: 6px;
+    line-height: 24px;
+    text-align: center;
+    color: #666;
+}
+.allright .allpages .pagesinfo a.pr{
+	width: 66px;
+}
+.allright .allpages .pagesinfo .leapage{
+	float: left;
+	color: #999;
+}
+.allright .allpages .pagesinfo .leapage .pageinput{
+	width: 27px;
+	height: 24px;
+	border:1px solid #e5e5e5;
+	margin: 0 6px 0 6px;
+	text-align: right;
+	color: #999;
+	line-height: 24px;
+	padding: 3px;
+	box-sizing:border-box;
+}
+.allright .allpages .pagesinfo .leapage .gopage{
+	width: 40px;
+	height: 24px;
+	background:#f0f0f0; 
+	margin: 0 6px 0 6px;
+	color: #999;
+	border:1px solid #e5e5e5;
+}
+.allright .allpages .pagesinfo a:hover{
+    color:#fff;
+    background: red;
+    border: 1px solid red;
+}
+.allright .allpages .pagesinfo a.active{
+	color:#fff;
+    background: red;
+    border: 1px solid red;
+}

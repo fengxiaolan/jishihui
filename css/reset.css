@@ -1,0 +1,28 @@
+html,body,div, dl,dt, dd, h1, h2, h3, h4, h5, h6, p,form,ol,li,ul,th,td,fieldset,legend{margin:0; padding:0;}
+h1, h2, h3, h4, h5, h6,b,strong{font-weight:normal;}
+i,em{font-style:normal;}
+img{border:none;display:block;}
+a{text-decoration:none;}
+ul,ol,li{list-style:none;}
+input{outline:none;border:0;}
+table{border-collapse: collapse;border-spacing: 0;}
+/*清楚所有浮动，防止高度塌陷*/
+.clearfix:after{ 
+	  display:block; 
+	  content:"."; 
+	  height:0; 
+	  font-size:0; 
+	  clear:both; 
+	  overflow:hidden;
+	  visibility: hidden;
+}
+
+
+
+body{font-size: 12px;color:#555;overflow-x:hidden;font-family: "微软雅黑";
+}
+/*版心*/
+.center{
+	width: 1190px;
+	margin: 0 auto;
+}

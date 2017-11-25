@@ -1,0 +1,212 @@
+
+ #header{height: 27px;background: #f2f2f2;border: 1px solid #e5e5e5;}
+    #header .hleft{
+    	float: left;
+    	padding-left: 10px;
+    } 
+    .hleft .addr,.hleft .login,.hleft .regist,.hleft .order,.hleft .collect{
+    	float: left;
+      
+    }
+    .hleft .addr b,.hleft .login b,.hleft .regist b,.hleft .order b,.hleft .collect b{
+    	line-height: 27px;
+    	
+    }
+    .hleft .addr a,.hleft .login a,.hleft .regist a,.hleft .order a,.hleft .collect a{
+    	color:#555;display: block;float: left;
+    }
+     .hleft .addr{
+     	width: 140px;
+      position: relative;
+     }
+     .hleft .addr i{
+     	padding-right: 10px;
+      
+     }
+     .hleft .addr span{
+     	padding-right: 9px;
+      padding-bottom: 5;
+     }
+     .hleft .addr a:hover b,.hleft .addr a:hover span{
+     	color: red;
+     }
+     .hleft .addr .icon-huoche{
+     	font-size: 16px;
+     }
+     .hleft .addr a:hover .icon-huoche{
+     	color:orange;
+     }
+
+      .addr .reciveaddr{width:400px; position: absolute;top: 28px;left: 10px;background: #fff;display: none;}
+   .reciveaddr h2{line-height: 24px;color: #666;font-size: 12px;}
+   .reciveaddr b.hotcity{color: #333;width: 52px;}
+   .reciveaddr b{color: #999;width: 50px;display:block;float: left;text-align: left;line-height: 24px;height: 24px;}
+   .reciveaddr span{width: 50px;display:block;float: left; text-align: center;line-height: 24px;height: 24px;font-size: 12px;}
+   .addr a:hover .reciveaddr{display: block;}
+
+     /*****/
+     .hleft .login{
+     width: 60px;
+    line-height: 27px;
+     }
+     .hleft .login a{
+     	padding-left: 20px;
+     	padding-right: 14px;
+      line-height: 27px;
+      text-align: center;
+     }
+    
+     .hleft .login a i{
+       line-height: 27px;
+     }
+     .hleft .regist a{
+     	padding-left: 14px;
+     	padding-right: 20px;
+      line-height: 27px;
+      text-align: center;
+     }
+     .hleft .regist{
+     	width: 62px;
+     }
+     .hleft .regist span{
+     	float: left;
+     	line-height: 27px;
+     }
+     /************/
+     .hleft .order{
+     	padding-right: 10px;
+
+     }
+     .hleft .order a{
+       line-height: 27px;
+       font-size: 12px;
+
+     }
+     .hleft .order a i{
+      font-size: 16px;
+     }
+     .hleft .order .icon-dingdan-copy{
+     	padding-right: 5px;
+     }
+     .hleft .order a:hover i{
+     	color:orange;
+     }
+     .hleft .order a:hover b{
+       color: red;
+     }
+
+     /********/
+     .hleft .collect{
+     	padding-left: 10px;
+     }
+
+     .hleft .collect .icon-shoucang1{
+     	padding-right: 5px;
+     	color: #ff861b;
+     	font-size: 20px;
+     }
+     .hleft .collect a:hover b{
+     	color: red;
+     }
+
+
+    /*****************/
+    #header .hright{
+    	float: right;
+    	padding-right: 12px;
+    }
+    .hright .app,.hright .help,.hright .convert,.hright .seller{
+    	float: left;width: 90px;
+    }
+    .hright .app a,.hright .help a,.hright .convert a,.hright .seller a{
+    	font-size: 12px;color:#555;line-height: 27px;;display: block;float: left;
+    }
+     .hright .app{
+     	width: 90px;
+      position: relative;
+     }
+     .hright .app a:hover i{color: orange;}
+     .hright .app a:hover b{color: red;}
+    .hright .app i{
+    	font-size: 18px;
+    	padding-right: 3px;
+    }
+    .hright .app a:hover .appcon{
+      display: block;
+    }
+    .hright .app .appcon{
+      width: 260px;
+      height: 90px;
+      border: 1px solid #eee;
+      position: absolute;
+      top: 28px;
+      left: -5px;
+      z-index: 12;
+      padding: 10px;
+      background: #fff;
+      display: none;
+    }
+    .hright .app .appcon .er{
+      float: left;
+      margin-right: 12px;
+      width: 80px;
+    }
+    .hright .app .appcon .apser{
+      float: left;
+      width: 160px;
+    }
+    .hright .app .appcon .apser p{color: #666;width: 150px;}
+    .hright .app .appcon .apser span{color: #f00;width: 150px;}
+    .hright .app .appcon .apser div{
+      float: left;margin-right: 5px;
+    }
+    /*********/
+    .hright .help{
+    	width: 90px;
+      position: relative;
+    }
+    .hright .help i{
+    	padding-left: 8px;
+    }
+    .hright .help a:hover .helpcon{
+       display: block;   
+    }
+    .hright .help a:hover b{color: red;}
+    
+    .hright .help .helpcon{
+       background: #fff;
+       width: 86px;
+       position: absolute;
+       top:28px;
+       left: -12px;
+       z-index: 12;
+       border: 1px solid #eee;
+       display: none;
+    }
+    .hright .help .helpcon span{
+      display: block;
+      width: 86px;
+      color: #666;
+      line-height: 22px;
+    }
+    .hright .help .helpcon a{
+      text-align: center;
+    }
+     .hright .help  .helpcon a:hover{
+       color: red;
+     }
+    
+    /*************/
+    .hright .convert{
+    	width: 90px;
+    }
+     .hright .convert i{
+    	padding-left: 8px;
+    }
+    .hright .convert .icon-duihuan{
+    	color: #d8242b;
+    	font-size: 20px;
+    } 
+    
+    .hright .convert a:hover b{color: red;}
+      /*****/

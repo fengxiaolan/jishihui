@@ -1,0 +1,183 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>购物车</title>
+	<link rel="shortcut icon" href="/favicon.ico"/>
+	<link rel="bookmark" href="/favicon.ico"/>
+
+	<link rel="stylesheet" type="text/css" href="../css/reset.css">
+	<link rel="stylesheet" type="text/css" href="../css/font/iconfont.css">
+
+  <link rel="stylesheet" type="text/css" href="../css/smallhead.css">
+  <link rel="stylesheet" type="text/css" href="../css/footer.css">
+  <link rel="stylesheet" type="text/css" href="../css/shopingcart.css">
+</head>
+
+<body>
+
+   <script src="../js/lib/jquery/jquery-1.12.4.min.js"></script>
+   <script src="../js/lib/jquery_plugins/jquery.cookie.js"></script>
+   <script src="../js/lib/arttemplate/template-native.js"></script>
+   <script src="../js/shopingcart.js"></script>
+
+<!-- **头部******************** -->
+<div id="shopheader"></div>
+<!-- **上部流程**************** -->
+<div class="shtop">
+	<div class="center">
+		<div class="too clearfix">
+	   <div class="slogo">
+	      <a href="index.html"><img src="../images/logo.png"></a>
+	   </div>
+	   <div class="cartrange">
+	      <ul class="cstep">
+	       <li class="cs1">
+	         <em></em>
+	         <span>我的购物车</span>
+	       </li>
+	       <li class="cs2">
+	         <em>2</em>
+	         <span>确认订单信息</span>
+	       </li>
+	       <li class="cs3">
+	         <em>3</em>
+	         <span>提交订单并结算</span>
+	       </li>
+	      </ul>
+	   </div>
+	   </div>
+ </div> <!-- center -->
+</div> <!-- shtop-->
+
+
+<!-- *z主体部分*********************** -->
+<div class="myshop">
+   <div class="center">
+       <div class="outshop">
+          <div class="mytitle">
+          	<h2>我的购物车</h2>	
+          </div>
+          <div class="cartcon">
+            <div class="carthead clearfix">
+               <div class="quan">
+                 <input type="checkbox" class="allselect"> <span>全选</span>
+               </div>
+               <div class="shang">
+               	  <span>商品</span>
+               </div>
+                <div class="jia">
+               	  <span>价格</span>
+               </div>
+                <div class="shu">
+               	  <span>数量</span>
+               </div>
+               <div class="xiaoji">
+               	  <span>小计</span>
+               </div>
+                <div class="operator">
+               	  <span>操作</span>
+               </div>
+            </div>
+            <!--  -->
+            <div class="cartlist clearfix">
+               <!-- <div class="cartgoods clearfix">
+                 <div class="storehead">
+                   <input type="checkbox" class="storeselect"><h3>四川的特产直供店</h3>
+                 </div>
+                 <div class="goodcart">
+                   <input type="checkbox" class="goodselect">
+                   <div class="gimg">
+                      <img src="../images/car1.jpg">
+                   </div>
+                   <div class="goodtail">
+                    <a href="#" class="gtit">福临门东北优质大米5kg</a>
+                    <a href="#" class="gtore">重庆福临门直供</a>
+                   </div>
+                   <div class="goodprice">￥38.80</div>
+                   <div class="goodamount">
+                      <span>-</span><input type="text" value="1" class="gamount"><span>+</span>
+                   </div>
+                   <div class="goodsubtotal">
+                      ￥38.80
+                   </div>
+                   <div class="operator">
+                      <a href="#">移入收藏夹</a><br>
+                      <a href="#">删除</a>
+                   </div>
+                 </div>
+              </div>  -->
+          </div>
+            <!--  -->
+            <div class="cartfoot"></div>
+          </div>
+
+       </div>
+
+   </div>
+</div>
+
+<!-- *********************** -->
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<!-- **尾部******************** -->
+<div id="shopfooter"></div>
+<!-- ***************** -->
+
+
+
+<script type="text/html" id="shopcarta">
+  <%
+   for(var i=0;i<shopcarts.length;i++){
+        var carting=shopcarts[i];
+  %>
+             <div class="cartgoods clearfix">
+               <div class="storehead">
+                 <input type="checkbox" class="storeselect"><h3><%=carting.storename %></h3>
+               </div>
+               <div class="goodcart">
+                 <input type="checkbox" class="goodselect">
+                 <div class="gimg">
+                    <img src="<%=carting.img %>">
+                 </div>
+                 <div class="goodtail">
+                  <a href="#" class="gtit"><%=carting.name1 %></a>
+                  <a href="#" class="gtore"><%=carting.name2 %></a>
+                 </div>
+                 <div class="goodprice">￥<%=carting.price %></div>
+                 <div class="goodamount">
+                    <span>-</span><input type="text" value="1" class="gamount"><span>+</span>
+                 </div>
+                 <div class="goodsubtotal">
+                    ￥<%=carting.total %>
+                 </div>
+                 <div class="operator">
+                    <a href="#" class="collect">移入收藏夹</a><br>
+                    <a href="javascript:void(0)" class="dele">删除</a>
+                 </div>
+               </div>
+           </div>
+
+  <%
+    }
+  %>
+</script>
+
+
+</body>
+</html>

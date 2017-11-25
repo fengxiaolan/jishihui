@@ -1,0 +1,287 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>注册</title>
+  <link rel="shortcut icon" href="/favicon.ico"/>
+  <link rel="bookmark" href="/favicon.ico"/>
+  <link rel="stylesheet" type="text/css" href="../css/index.css">
+  <link rel="stylesheet" type="text/css" href="../css/reset.css">
+  <link rel="stylesheet" type="text/css" href="../css/register.css">
+</head>
+<body>
+    
+   <script src="../js/lib/jquery/jquery-1.12.4.min.js"></script>
+   <script src="../js/lib/jquery_plugins/jquery.cookie.js"></script>
+   <script src="../js/lib/arttemplate/template-native.js"></script>
+   <script src="../js/loginreg.js"></script>
+
+   <div class="regheader">
+        <div class="registcenter">
+           <a href=""><img src="../images/logo.png"></a> 
+        </div>
+   </div>
+
+
+   <div class="regmain1">
+       <div class="registcenter clearfix">
+        <div class="retab">
+          <ul class="regtitle">
+            <li class="active"><span>个人会员</span></li>  
+            <li><span >万企集采.企业会员</span></li>
+            <li><span >合作伙伴</span></li>
+            <li><span>供应伙伴</span></li>
+          </ul>
+          <div class="golog">
+            <span>我已注册，现在就</span>
+            <a href="/html/login.html">登录</a>
+          </div>
+        </div>
+
+         <div class="remain">
+         <ul class="regmessage">
+          <li class="indivual">
+            <div class="nameinfo clearfix">
+              <h2>账户信息</h2>
+
+              <div class="regtel">
+                <span>手机/邮箱：</span>
+                <input type="text" placeholder="请输入手机/邮箱"  class="telinput"><b></b>
+                  <div class="telalert clearfix">
+                      <i></i>
+                      <span>请输入正确手机/邮箱</span>
+                   </div>
+              </div>
+
+              <div class="regcheck">
+                <span>验&nbsp;证&nbsp;码</span>
+                <input type="text" placeholder="验证码"  class="checkinput">
+                <input type="button" value="获取验证码" class="getcheck"><b></b>
+                  <div class="checkalert clearfix">
+                      <i></i>
+                      <span>请输入密码</span>
+                   </div>
+              </div>
+
+              <div class="setpass">
+                <span>请设置密码:</span>
+                <input type="password" placeholder="请输入6-20位字符,可用数字、字母或符号进行组合" class="pass1input"><b></b>
+                  <div class="setpalert">
+                    <i></i>
+                    <span>请输入密码</span>
+                 </div>
+              </div>
+                 
+
+              <div class="repepass">
+                <span>请确认密码:</span>
+                <input type="password" placeholder="请再次输入密码" class="pass2input"><b></b>
+                   <div class="repepalert">
+                    <i></i>
+                    <span>请再次输入密码</span>
+                 </div>
+              </div>
+                 
+
+              <div class="chagree">
+                <input type="checkbox" class="agreecheck">
+                <span>我已同意并同意<a href="#">《集食惠用户注册协议》</a></span>
+                
+              </div>
+
+              <div class="goreg">
+                <input type="submit" class="gozhu" value="立即注册">
+              </div>
+                
+
+            </div>
+          </li>
+
+<!-- ******************************** -->
+          <li class="wanqi">
+             <div class="wanqiinfo clearfix">
+                <h2>账户信息</h2>
+
+                <div class="reg2user">
+                  <span>用户名：</span>
+                  <input type="text" placeholder="请输入用户名"  class="userinput"><b></b>
+                    <div class="useralert clearfix">
+                        <i></i>
+                        <span>请输入用户名</span>
+                     </div>
+                </div>
+
+                <div class="reg2tel">
+                  <span>手机/邮箱：</span>
+                  <input type="text" placeholder="请输入手机/邮箱"  class="telinput"><b></b>
+                    <div class="telalert clearfix">
+                        <i></i>
+                        <span>请输入手机/邮箱</span>
+                     </div>
+                </div>
+
+                <div class="reg2check">
+                  <span>验&nbsp;证&nbsp;码</span>
+                  <input type="text" placeholder="验证码"  class="checkinput">
+                  <input type="button" value="获取验证码" class="getcheck">
+                    <div class="checkalert clearfix">
+                        <i></i>
+                        <span>请输入密码</span>
+                     </div>
+                </div>
+
+                <div class="set2pass">
+                  <span>请设置密码:</span>
+                  <input type="password" placeholder="请输入6-20位字符，可用数字、字母或符号进行组合" class="pass1input"><b></b>
+                    <div class="setpalert">
+                      <i></i>
+                      <span>请输入密码</span>
+                   </div>
+                </div>
+                   
+
+                <div class="repe2pass">
+                  <span>请确认密码:</span>
+                  <input type="password" placeholder="请再次输入密码" class="pass2input"><b></b>
+                     <div class="repepalert">
+                      <i></i>
+                      <span>请再次输入密码</span>
+                   </div>
+                </div>
+                
+            </div>
+
+           <!-- ************* *****************-->
+            <div class="offerinfo clearfix">
+                <h2>公司信息</h2>
+
+                <div class="comname">
+                  <span>企业名称：</span>
+                  <input type="text" placeholder="请输入企业名称"  class="cnameinput"><b></b>
+                     <div class="comnalert">
+                        <i></i>
+                        <span>请输入企业名称</span>
+                     </div>
+                </div>
+                  
+
+                 <div class="comhuman">
+                  <span>联系人：</span>
+                  <input type="text" placeholder="请输入联系人"  class="chuminput"><b></b>
+                     <div class="humanalert">
+                      <i></i>
+                      <span>请输入联系人</span>
+                   </div>
+                </div>
+                  
+
+                <div class="comtel">
+                  <span>联系电话：</span>
+                  <input type="text" placeholder="请输入联系人"  class="ctelinput"><b></b>
+                    <div class="ctelalert">
+                        <i></i>
+                        <span>格式不正确</span>
+                     </div>
+                </div>
+                  
+
+                <div class="comspace">
+                    <span>营业执照地区：</span>
+                 <select class="province">
+                      <option>省</option>
+                 </select>
+                  <select class="city">
+                      <option>市/区</option>
+                 </select>
+                  <select class="country">
+                      <option>区县</option>
+                 </select>
+
+                    <div class="spacealert">
+                        <i></i>
+                        <span>格式不正确</span>
+                     </div>
+                </div>
+
+
+                <div class="talent">
+                     <span>营业执照地区：</span>
+                     <em>为了保证顺利通过审核，请至少上传“营业执照”的资质文件</em>
+                </div>
+                
+                <div class="talentfile">
+                  <input type="button" value="添加资质" class="addtalent">
+                </div>
+
+
+                <div class="caima">
+                    <span>集&nbsp;采&nbsp;码：</span>
+                  <input type="text" placeholder="请输入集采码"  class="caimainput"><b></b>
+                    <div class="caimaalert">
+                        <i></i>
+                        <span>请输入集采码</span>
+                     </div>
+
+                </div>
+
+
+                <div class="contract">
+                    <span>合同信息：</span>
+                  <input type="text" placeholder="请输入集采码"  class="continput"><b></b>
+                    <div class="contalert">
+                        <i></i>
+                        <span>请输入集采码</span>
+                     </div>
+
+                </div>
+
+
+                 <div class="chagree">
+                      <input type="checkbox" class="agreecheck">
+                      <span>我已同意并同意<a href="#">《集食惠用户注册协议》</a></span>
+                      <b></b>
+              </div>
+
+
+<!-- ********** -->
+                    <div class="goreg">
+                       <input type="submit" class="gozhu" value="立即注册">
+                    </div>
+              </div>
+          </li>
+
+<!-- ********************************************* -->
+          <li class="company">
+              合作伙伴
+          </li>
+
+<!-- ********************************** -->
+
+          <li class="providecom">
+             供应伙伴
+          </li>
+<!--
+      ***********************      -->
+         </ul>
+         </div>
+
+       </div>
+
+   </div>
+<p class="copy1">
+重庆市礼仪之邦电子商务有限公司旗下品牌:礼仪之邦集食惠@2009-2020 渝ICP备12002277号 经营许可证编号:渝B2-20120008
+</p>
+<p class="copy2">公司地址：重庆市两江新区星光大道软件园海王星E区 订购及售后服务电话:023-61819691 4000-266-357
+</p>
+
+
+
+
+<script type="text/javascript">
+
+
+
+
+</script>
+</body>
+</html>
